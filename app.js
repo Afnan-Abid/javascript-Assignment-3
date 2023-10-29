@@ -22,23 +22,6 @@ let Age = "23"
 let Work = "salesman"
 let Hobbies = "Reading books"*/
 
-
-
-//Question 3//
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Math Expression//
 
 
@@ -199,6 +182,36 @@ alert("Your age is: " + age + " years");*/
 
 
 
+/*Question 9 
+
+let number = 7;
+let result = (((number + 5) * 10) / 2);
+
+console.log("The result is: " + result);*/
+
+
+
+/*Question 10
+
+let radius = 24
+ let pie = 3.142
+ let pieAndR = pie * radius
+ let circumference = 2 * pieAndR
+
+ let squareOfRadius = 24 * 24
+ let area = pie * squareOfRadius
+
+
+ document.write('<h1>' + 'The Geometrizer' + '</h1>')
+ document.write("<br>")
+ document.write()
+ document.write("<br>")
+ document.write("Radius of a circle : " + radius)
+ document.write("<br>")
+ document.write("The circumference is : " + circumference)
+ document.write("<br>")
+ document.write('The area is : ' + area)
+ document.write("<br>")*/
 
 /*Question 15
 
@@ -338,6 +351,350 @@ if (percentage >= 80) {
 }
 
 alert("Grade: " + grade + "\nRemarks: " + remarks + "\nPercentage: " + percentage);*/
+
+/*Question 11
+
+let secretNum = 8;
+let guess = Number(prompt("Enter your number"));
+
+if (secretNum === guess) {
+  alert("Bingo! Correct Answer");
+} else if (secretNum - guess >= -1 && secretNum - guess <= 1) {
+  alert("Close enough to the correct answer");
+} else {
+  alert("Sorry, try again.");
+}*/
+
+
+
+/*Question 12
+
+let number = Number(prompt("Enter a number"));
+
+if (number % 3 === 0) {
+  alert(number + " is divisible by 3.");
+} else {
+  alert(number + " is not divisible by 3.");
+}*/
+
+
+/*Question 13 
+
+let team1 = prompt("Enter the name of the first team");
+let team2 = prompt("Enter the name of the second team");
+let team1Scores = prompt("Enter the score for team 1 ");
+let team2Scores = prompt("Enter the score for  team 2");
+
+if (team1Scores > team2Scores) {
+  alert(team1 + " is the winner with a score of " + team1Scores);
+} else if (team2Scores > team1Scores) {
+  alert(team2 + " is the winner with a score of " + team2Scores);
+} else {
+  alert("It's a tie! Both teams have the same score.");
+}*/
+
+
+
+
+/*Question 14
+
+let string = prompt("Enter the name");
+let number = +prompt("Ennter the number");
+let boolean = prompt("Enter the boolean");
+
+if ( string === "string") {
+  alert("String is a string.");
+} else {
+  alert("String is not a string.");
+}
+
+if (number === "number") {
+  alert("Number is a number.");
+} else {
+  alert("Number is not a number.");
+}
+
+if ( boolean === "boolean") {
+  alert("Boolean is a boolean.");
+} else {
+  alert("Boolean is not a boolean.");
+}*/
+
+
+/*Question 15 
+
+
+let number1 = Number(prompt("Enter a number"));
+
+if (number1 % 2 === 0) {
+  alert(number1 + " is an even number.");
+} else {
+  alert(number1 + " is an odd number.");
+}*/
+
+
+/*Question 16 
+
+let weather = prompt("Enter the temperature");
+
+if (weather >= 40) {
+  alert("It is too hot outside.");
+} else if (weather >= 30) {
+  alert("The weather today is normal.");
+} else if (weather >= 20) {
+  alert("Today's weather is cool.");
+} else if (weather >= 10) {
+  alert("OMG, today's weather is so cool.");
+} else {
+  alert("It is very cold outside.");
+}*/
+
+
+/* Question 17 
+
+let num1 = +prompt("Enter first number")
+let num2 = +prompt("Enter second number")*/
+
+
+
+/*Question 18 
+
+
+let dayName = prompt("Enter your day name");
+
+if (dayName === "monday" || dayName === "tuesday" || dayName === "wednesday" || dayName === "thursday" || dayName === "friday") {
+  alert("It's a weekday.");
+} else if (dayName === "saturday") {
+  alert("It is the weekend.");
+} else if (dayName === "sunday") {
+  alert("It's a holiday yay.");
+} else {
+  alert("Invalid input. Please enter a valid day name.");
+}*/
+
+
+/*Question 19 
+
+let score = +prompt("Enter the Number")
+
+if(score > 50){
+  alert("You are passed")
+}
+else{
+  alert("Try again")
+}*/
+
+
+
+/*Question 20
+
+
+let num1 = Number(prompt("Enter the first number"));
+let num2 = Number(prompt("Enter the second number"));
+
+if (num1 > num2) {
+  alert(num1 + " is the greater number.");
+} else if (num2 > num1) {
+  alert(num2 + " is the greater number.");
+} else {
+  alert("Both numbers are equal.");
+}*/
+
+
+
+/*Question 21
+
+let number = Number(prompt("Enter a number"));
+
+if (number > 0) {
+  alert("It's a positive number.");
+} else if (number < 0) {
+  alert("It's a negative number.");
+} else {
+  alert("It's zero.");
+}*/
+
+
+
+
+/*Question 23
+
+let noun = prompt("Enter a noun")
+let number1 = prompt("Enter a number ")
+
+
+
+if(noun === )*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
